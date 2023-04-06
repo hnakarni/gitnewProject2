@@ -12,7 +12,7 @@ const path = require('path');
 
 const mongoose = require('mongoose');
 
-mongoose.connect("mongodb+srv://piyushNakarani:Rwn2faculty@cluster0.lefjm.mongodb.net/YCPiyushRecord",{
+mongoose.connect("mongodb+srv://pranavad76:pranav72@cluster0.b6nth4p.mongodb.net/YCPIYUSH2",{
     useNewUrlParser : true,
     useUnifiedTopology : true
 }).then(()=>{
