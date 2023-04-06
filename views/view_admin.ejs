@@ -70,7 +70,8 @@
                   <td><a href="/showfull/<%= ad.id %>"><%= ad.name %></a></td>
                   <td><%= ad.email %></td>
                   <td><%= ad.city %></td>
-                  <% img = ad.avatar.substring(7,ad.avatar.length); %>
+                  <% img = ad.avatar.substr(7,ad.avatar.length); %>
+                  <%= img %>
                   <td><img src="<%= img %>" height="100"/></td>
                   
                   <td><a href="/deleteAdmin/<%= ad.id %>"><i class="fa fa-trash"></i></a> || <i class="fa fa-edit"></i></td>
